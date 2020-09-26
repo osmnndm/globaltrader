@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.32">
-<testcase classname="Framework Test" name="Google Test" time="8.048">
-<system-out><![CDATA[Given Kullanici google sitesine gider.......................................passed
-And Kullanici sitenin titlesini alir........................................passed
-Then site titlesinin Google yazisinin var oldugunu assert eder..............passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.899">
+<testcase classname="" name="TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur" time="15.64">
+<system-out><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
+And kullanici  Seller Join Now butonuna tiklar..............................passed
+And kullanici Company Seller sekmesine tiklar...............................passed
+And kullanici Company Name girer............................................passed
+And kullanici Company Mobile girer..........................................passed
+And kullanici Company Address girer.........................................passed
+And kullanici Name girer....................................................passed
+And kullanici Email girer...................................................passed
+And kullanici Sub Domain girer..............................................passed
+And kullanici Mobile Number girer...........................................passed
+And kullanici Country dropdowndan secer.....................................passed
+And kullanici State girer...................................................passed
+And kullanici City girer....................................................passed
+And kullanici Address girer.................................................passed
+And kullanici Postal Code girer.............................................passed
+And kullanici Categories dropdowndan secer..................................passed
+And kullanici Password girer................................................passed
+And kullanici Registration butonuna tiklar..................................passed
+Then kullanici "Thank you to join our team. You are Registered Successfully." masajini gormelidir.passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -3,69 +3,281 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-21T17:25:26.908Z",
-        "line": 4,
-        "name": "Google Test",
+        "start_timestamp": "2020-09-26T21:24:57.667Z",
+        "line": 3,
+        "name": "TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur",
         "description": "",
-        "id": "framework-test;google-test",
+        "id": ";tc-0003-kullanici-gecerli-verilerle-company-seller-hesabi-olusturur",
+        "after": [
+          {
+            "result": {
+              "duration": 822000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7997000000,
+              "duration": 7818000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Kullanici google sitesine gider.",
+            "line": 4,
+            "name": "kullanici \"http://glbtrader.com/\" sayfasindadir",
             "match": {
-              "location": "stepdefinitions.FrameworkTest.kullanici_google_sitesine_gider()"
+              "arguments": [
+                {
+                  "val": "\"http://glbtrader.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_sayfasindadir(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 2040000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Kullanici sitenin titlesini alir.",
+            "line": 5,
+            "name": "kullanici  Seller Join Now butonuna tiklar",
             "match": {
-              "location": "stepdefinitions.FrameworkTest.kullanici_sitenin_titlesini_alir()"
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Seller_Join_Now_butonuna_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici Company Seller sekmesine tiklar",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Seller_sekmesine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "site titlesinin Google yazisinin var oldugunu assert eder.",
+            "name": "kullanici Company Name girer",
             "match": {
-              "location": "stepdefinitions.FrameworkTest.site_titlesinin_Google_yazisinin_var_oldugunu_assert_eder()"
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Name_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici Company Mobile girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Mobile_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici Company Address girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Address_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici Name girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Name_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici Email girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Email_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici Sub Domain girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Sub_Domain_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici Mobile Number girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Mobile_Number_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici Country dropdowndan secer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Country_dropdowndan_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici State girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_State_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici City girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_City_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici Address girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Address_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "kullanici Postal Code girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Postal_Code_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici Categories dropdowndan secer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Categories_dropdowndan_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "kullanici Password girer",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Password_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1301000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "kullanici Registration butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Registration_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kullanici \"Thank you to join our team. You are Registered Successfully.\" masajini gormelidir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you to join our team. You are Registered Successfully.\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_masajini_gormelidir(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smoketest"
-          },
-          {
-            "name": "@FrameworkTest"
+            "name": "@Company_seller_join"
           }
         ]
       }
     ],
-    "name": "Framework Test",
+    "name": "",
     "description": "",
-    "id": "framework-test",
+    "id": "",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/framework_test.feature",
+    "uri": "file:src/test/resources/features/company_seller_join_now.feature",
     "tags": [
       {
-        "name": "@smoketest",
+        "name": "@Company_seller_join",
         "type": "Tag",
         "location": {
           "line": 1,
